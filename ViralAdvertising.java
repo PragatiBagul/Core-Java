@@ -16,6 +16,7 @@ public class ViralAdvertising {
         {
             liked=shared/2;
             cumulative+=liked;
+            shared=liked*3;
         }
         return cumulative;
     }
