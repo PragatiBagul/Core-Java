@@ -51,7 +51,6 @@ public class CheckBrackets {
                     }
                     else
                     {
-                        //System.out.println(opening_brackets_stack.peek().position);
                         System.out.println(position+1);
                         flag=false;
                         System.exit(0);
